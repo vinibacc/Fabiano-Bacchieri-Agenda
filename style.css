@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    background-image: url(assets/images/backgroud.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+#teste{
+    letter-spacing: 1rem;
+}
+#teste::before {
+    content: url(assets/images/Group\ 1.svg);
+    padding: 1rem;
+}
+
+#teste::after {
+    content: url(assets/images/Group\ 1.svg);
+    padding: 0.5rem;
+}
